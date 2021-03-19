@@ -15,7 +15,6 @@ h1{
     font-size: 2em;
     font-family: 'Rubik Mono One', sans-serif;
     box-shadow: inset 4px 4px 15px 0px #000000;
-    width: 100%;
 }
 p{
     font-size: 1.5em;
@@ -51,7 +50,6 @@ input, label{
     flex-direction: row;
     margin: 10px;
     text-align: center;
-    width: 100%;
     
 }
 .options-label,
