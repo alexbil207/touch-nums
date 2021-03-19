@@ -67,12 +67,10 @@ input, label{
     padding: 0;
 }
 table{
-    
     height: 18rem;
     width: 21rem;
-    font-size: 3em;
+    font-size: 2em;
     text-align: center; 
-
 }
 td{
     padding: 2px;
