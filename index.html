@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <title>Touch-The-Nums</title>
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Touch-The-Nums</h1>
+    </div>
+    <div class="container">
+        <div class="box properties">
+            <label class="options-label" for="">Choose Your Level:</label>
+
+            <label for="easy">Easy[16]
+                <input type="radio" name="game" data-num="16" onclick="levelClick(this)" checked>
+            </label>
+
+            <label for="hard">Hard[25]
+                <input type="radio" name="game" data-num="25" onclick="levelClick(this)">
+            </label>
+
+            <label for="extreme">Extreme[36]
+                <input type="radio" name="game" data-num="36" onclick="levelClick(this)">
+            </label>
+        </div>
+        <div class="information">
+            <div class="box time">
+                <label for="">Time:</label>
+                <p>00.000</p>
+            </div>
+            <div class="box next-number">
+                <label for="">Next Number:</label>
+                <p>00</p>
+            </div>
+        </div>
+        <div class="box game">
+            <table>
+
+            </table>
+        </div>
+        <button onclick="restartBtn()" class="restart-button none">Play Again!</button>
+    </div>
+
+
+    <script src="./js/util.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

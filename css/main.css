@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    color:aliceblue;
+    font-size: 2em;
+    font-family: 'Rubik Mono One', sans-serif;
+    box-shadow: inset 4px 4px 15px 0px #000000;
+    
+}
+p{
+    font-size: 2em;
+}
+input, label{
+    padding: 10px;
+}
+
+.header{
+    border-bottom: 2px solid blanchedalmond;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+    z-index: 1;
+    
+}
+
+.box{
+    border: 2px solid #000;
+    box-shadow: 0px 0px 15px 2px #000000;
+    background-color: rgb(236, 233, 191);
+    padding: 10px;
+    margin: 0 50px;
+}
+
+.properties, .information{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    text-align: center;
+    
+}
+.options-label,
+.time label,
+.next-number label{
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.time, .next-number{
+    width: 160px;
+}
+.game{
+    padding: 0;
+}
+table{
+    
+    height: 18rem;
+    width: 21rem;
+    font-size: 3em;
+    text-align: center; 
+
+}
+td{
+    padding: 5px;
+    border: 2px solid;
+    background-color: rgb(236, 233, 191);
+
+}
+
+.wrong{
+    background-color: red;
+}
+
+.right{
+    background-color: green;
+}
+.restart-button{
+    z-index: 2;
+    position: absolute;
+    padding: 10px;
+    margin-top: 250px;
+
+}
+.hidden{
+    opacity: 0;
+}
+.none{
+    display: none;
+}
